@@ -90,22 +90,20 @@ If you use this software, please cite it as follows:
 **Please send all pull requests for a specific version (e.g. via-2.x.y) to their respective branch (e.g. branch via-2.x.y). All contributions made to VIA code repository will be licensed under the [BSD-2 clause license](https://gitlab.com/vgg/via/blob/master/LICENSE).**
 
 The VIA application is made up of the following three files:
- * [index.html](via-2.x.y/src/index.html) : defines the user interface components 
+ * [index.html](src/index.html) : defines the user interface components 
 like menu bar, toolbar, annotation editor, shape selector, file list, etc.
- * [via.css](via-2.x.y/src/via.css) : describes the style (e.g. colour, font size, 
-border, etc.) of user interface components defined in [index.html](via-2.x.y/src/index.html).
- * [via.js](via-2.x.y/src/via.js) : Javascript code that manages user interactions 
+ * [via.css](src/via.css) : describes the style (e.g. colour, font size, 
+border, etc.) of user interface components defined in [index.html](src/index.html).
+ * [via.js](src/via.js) : Javascript code that manages user interactions 
 (e.g. draw regions, select region shape, etc.) and other aspects of the VIA 
 application (e.g. load file, import/export annotations, edit metadata, etc.)
 
-The above three files are combined by [pack_via.py](via-2.x.y/scripts/pack_via.py)
-script to generate the final VIA application file named [via.html](via-2.x.y/dist/via.html).
+The above three files are combined by [pack_via.py](scripts/pack_via.py)
+script to generate the final VIA application file named [via.html](dist/via.html).
 
-More details about the VIA source code is available in the [source code documentation](via-2.x.y/CodeDoc.md)
-file. All the files related to the VIA application reside in the [via-2.x.y branch](https://gitlab.com/vgg/via/tree/via-2.x.y/via-2.x.y)
-of the source code repository. The [Quality Assessment](via-2.x.y/QualityAssessment.md) 
-page describes the guidelines to ensure the quality of VIA application, source 
-code and its documentation.
+More details about the VIA source code is available in the [source code documentation](CodeDoc.md)
+file. All the files related to the VIA application reside in the [via-2.x.y branch](https://gitlab.com/vgg/via/tree/via-2.x.y)
+of the source code repository.
 
 Software bug reports and feature requests should be 
 [submitted here](https://gitlab.com/vgg/via/issues/new) (requires gitlab account).
